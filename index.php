@@ -3,12 +3,11 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 <meta http-equiv="cache-control" content="no-cache" />
-<title>Zuma Blitz</title>
+<title>Zuma Blitz on Github from PopCap</title>
 <script type="text/javascript" src="/common/js/swfobject.js"></script>
 
 <?php
 $levels = [
-	"lvl_beachball",
 	"lvl_abovenbelow",
 	
 	/**
@@ -94,12 +93,12 @@ obj.flashvars = {
 	"theHighScore": 100000,
 	"tournamentId": "1",
 	
-	"hasHadZeroMojo": true,
-	"hasHadZeroLife": true,
+	"hasHadZeroMojo": 1,
+	"hasHadZeroLife": 1,
 	
 	"treasureCollected": {},
 	
-	"mojo": 1000000,
+	"mojo": 10000,
 	"idols": 100,
 	"rewardmojo": 25000,
 	"rewardidols": 3,
@@ -157,4 +156,5 @@ function checkFrameworkStatus() {
 		<div id="gameObjectDiv">Me Dr. Mojo. You need to see <a href="https://thegreenspirit.serv00.net/games/flash.html">this</a> to play Zuma Blitz. Me say bye.</div>
 	</div>
 </body>
+
 </html>
